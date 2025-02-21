@@ -502,3 +502,18 @@ figure {
     text-align: center; /* Centers inline elements like buttons */
     margin-top: 20px; /* Optional spacing */
 }
+
+.img-responsive {
+    width: 30%; /* Adjust as needed */
+    height: auto; /* Keeps the aspect ratio */
+}
+
+
+.email-link {
+    color: slateblue; /* Set the color of the link to slateblue */
+    text-decoration: none; /* Remove the underline */
+}
+
+.email-link:hover {
+    text-decoration: underline; /* Optionally add an underline on hover */
+}
