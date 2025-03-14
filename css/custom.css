@@ -504,7 +504,7 @@ figure {
 }
 
 .img-responsive {
-    width: 30%; /* Adjust as needed */
+    width: 40%; /* Adjust as needed */
     height: auto; /* Keeps the aspect ratio */
 }
 
