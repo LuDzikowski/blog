@@ -517,3 +517,21 @@ figure {
 .email-link:hover {
     text-decoration: underline; /* Optionally add an underline on hover */
 }
+
+.book-title {
+	cursor: pointer;
+	transition: color 0.2s ease;
+	color: #000; /* default text color */
+  }
+  
+  .book-title:hover {
+	color: slateblue; /* DodgerBlue or any highlight color you prefer */
+  }
+  
+  .toggle-icon {
+	display: inline-block;
+	width: 1em;
+	margin-right: 8px;
+	font-weight: bold;
+	font-size: 1.2em;
+  }
