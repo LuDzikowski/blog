@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reading - Luca Dzikowski</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/pace.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- js -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/pace.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+  </head>
+
+  <body id="page">
+    <div class="container">
+      <header id="site-header">
+        <div class="row">
+          <div class="col-md-4 col-sm-5 col-xs-8">
+            <div class="logo">
+              <h1><a href="index.html">Luca Dzikowski<br><h4>Reading</h4></a></h1>
+            </div>
+          </div>
+          <div class="col-md-8 col-sm-7 col-xs-4">
+            <nav class="main-nav" role="navigation">
+              <div class="navbar-header">
+                <button type="button" id="trigger-overlay" class="navbar-toggle">
+                  <span class="ion-navicon"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="cl-effect-11"><a href="index.html" data-hover="Thoughts">Thoughts</a></li>
+                  <li class="cl-effect-11"><a href="macro.html" data-hover="Macro">Macro</a></li>
+                  <li class="cl-effect-11"><a href="reading.html" data-hover="Books">Reading</a></li>
+                  <li class="cl-effect-11"><a href="about.html" data-hover="About">About</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <div class="content-body">
+      <div class="container">
+        <div class="row">
+          <main class="col-md-12">
+            <p> </p>
+            <h4 class="page-title">Here are some books I've been reading</h4>
+
+            <!-- Book Entry Example -->
+            <article class="post" style="margin-bottom: 15px;">
+                <h4 class="book-title" style="cursor: pointer;"><strong>Flash Boys</strong> by Michael Lewis</h4>
+                <div class="book-review" style="display: none;">
+                  <p>Forthcoming</p>
+                </div>
+              </article>
+              
+              <article class="post" style="margin-bottom: 15px;">
+                <h4 class="book-title" style="cursor: pointer;"><strong>The Paradox of Debt: A New Path to Prosperity Without Crisis</strong> by Richard Vague</h4>
+                <div class="book-review" style="display: none;">
+                  <p>Forthcoming</p>
+                </div>
+              </article>
+              
+              <article class="post" style="margin-bottom: 15px;">
+                <h4 class="book-title" style="cursor: pointer;"><strong>Crashed: How a decade of financial crises changed the world</strong> by Adam Tooze</h4>
+                <div class="book-review" style="display: none;">
+                  <p>Forthcoming</p>
+                </div>
+              </article>
+              
+              <article class="post" style="margin-bottom: 15px;">
+                <h4 class="book-title" style="cursor: pointer;"><strong>Nausea</strong> by Jean Paul Sartre</h4>
+                <div class="book-review" style="display: none;">
+                  <p>Forthcoming</p>
+                </div>
+              </article>
+              
+              <article class="post" style="margin-bottom: 15px;">
+                <h4 class="book-title" style="cursor: pointer;"><strong>Just Kids</strong> by Patti Smith</h4>
+                <div class="book-review" style="display: none;">
+                  <p>Forthcoming</p>
+                </div>
+              </article>
+              
+              <article class="post" style="margin-bottom: 15px;">
+                <h4 class="book-title" style="cursor: pointer;"><strong>A Short History of London</strong> by Simon Jenkins</h4>
+                <div class="book-review" style="display: none;">
+                  <p>Forthcoming</p>
+                </div>
+              </article>
+              
+              <article class="post" style="margin-bottom: 15px;">
+                <h4 class="book-title" style="cursor: pointer;"><strong>Debt: The First 5,000 Years</strong> by David Graeber</h4>
+                <div class="book-review" style="display: none;">
+                  <p>Forthcoming</p>
+                </div>
+              </article>
+              
+              <article class="post" style="margin-bottom: 15px;">
+                <h4 class="book-title" style="cursor: pointer;"><strong>Default: The Landmark Court Battle over Argentina’s $100 Billion Debt Restructuring</strong> by Gregory Makoff</h4>
+                <div class="book-review" style="display: none;">
+                  <p>Forthcoming</p>
+                </div>
+              </article>
+              
+
+            <!-- Copy and Paste Below for More Books -->
+            <!--
+            <article class="post" style="margin-bottom: 40px;">
+              <h5><strong>[Book Title]</strong> by [Author]</h5>
+              <p>[Your thoughts on the book in a short paragraph.]</p>
+            </article>
+            -->
+
+          </main>
+        </div>
+      </div>
+    </div>
+
+    <footer id="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="copyright">&copy; 2025 Luca Dzikowski</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Mobile Menu -->
+    <div class="overlay overlay-hugeinc">
+      <button type="button" class="overlay-close"><span class="ion-ios-close-empty"></span></button>
+      <nav>
+        <ul>
+          <li><a href="index.html">Thoughts</a></li>
+          <li><a href="macro.html">Macro</a></li>
+          <li><a href="reading.html">Books</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+    <script>
+        $(document).ready(function () {
+          $('.book-title').on('click', function () {
+            $(this).next('.book-review').slideToggle(200);
+          });
+        });
+      </script>
+  </body>
+</html>
